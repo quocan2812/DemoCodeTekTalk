@@ -1,0 +1,16 @@
+PODS:
+  - TekTalkDemo2 (0.1.0)
+
+DEPENDENCIES:
+  - TekTalkDemo2 (from `../`)
+
+EXTERNAL SOURCES:
+  TekTalkDemo2:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TekTalkDemo2: cf282b18606cd45525909c519c2106a6f1939c70
+
+PODFILE CHECKSUM: 05160321a092abc36fc5c902c108480ef8ba4eae
+
+COCOAPODS: 1.0.0

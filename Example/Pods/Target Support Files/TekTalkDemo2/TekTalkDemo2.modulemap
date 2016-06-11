@@ -1,0 +1,6 @@
+framework module TekTalkDemo2 {
+  umbrella header "TekTalkDemo2-umbrella.h"
+
+  export *
+  module * { export * }
+}
