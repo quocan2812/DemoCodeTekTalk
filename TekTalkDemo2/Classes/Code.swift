@@ -68,4 +68,47 @@ class Code: NSObject {
     }
     
 }
+extension UITextField {
+    
+    @IBInspectable var localizedPlaceholder: String {
+        get { return "" }
+        set {
+            self.placeholder = NSLocalizedString(newValue, comment: "")
+        }
+    }
+    
+    @IBInspectable var localizedText: String {
+        get { return "" }
+        set {
+            self.text = NSLocalizedString(newValue, comment: "")
+        }
+    }
+}
+
+@IBDesignable class IbDesignTextField: UITextField {
+    @IBInspectable var color : UIColor = UIColor.whiteColor(){
+        didSet{
+            setupView()
+        }
+    }
+    @IBInspectable var insetText : CGFloat = 0.0{
+        didSet{
+            setupView()
+        }
+    }
+    
+    private func setupView(){
+        self.backgroundColor = color
+        
+        self.leftViewMode = .Always
+        self.leftView = UIView(frame: CGRect(x: 0, y: 0, width: insetText, height: insetText))
+        
+        self.setNeedsDisplay()
+        
+    }
+    
+    
+    
+}
+
 
