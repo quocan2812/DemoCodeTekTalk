@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		132BA71374ED77477FFFF83AF7FAA706 /* Pods-TekTalkDemo2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EDF99D2C596A6E5B23DD90CAE128F5 /* Pods-TekTalkDemo2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3617463A452E514671264E5CA1E52BD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		5CD72F926BC447AE2AF38D781A003F45 /* TekTalkDemo2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F29123B6A67C4955026E090FE7DE6 /* TekTalkDemo2-dummy.m */; };
-		7310ECFE1D0C3A19000E3190 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310ECFD1D0C3A19000E3190 /* Code.swift */; };
 		7CE5AE5DD84635D92C0B6E59A0687B1C /* Pods-TekTalkDemo2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A80173EA6BE6012BCEDD0E6C6111BC7 /* Pods-TekTalkDemo2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96FEF3F9FB540C9B65118478F5C9862F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A3FF202AA97D92221369AC38AF76E7E2 /* TekTalkDemo2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F29123B6A67C4955026E090FE7DE6 /* TekTalkDemo2-dummy.m */; };
 		ADCEE6A19F65DECB91A4885BAD7FBE91 /* TekTalkDemo2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 280A2DEC2A1F2F7760F8040B7D41B92A /* TekTalkDemo2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B380C2BF037A596D4BA1D48CBD9327F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		B9831A039BD4D42B714E53AD0EC41D05 /* Pods-TekTalkDemo2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE25257CB5277AF67DA9CA82753C2F7 /* Pods-TekTalkDemo2_Example-dummy.m */; };
+		C2CD3B5EA23E2E9182D71689081E37D7 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE2274499D832A8912CD05FA6A9765 /* Code.swift */; };
 		F7F1B08D74786C313540D6F2D5E597EE /* Pods-TekTalkDemo2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EEB91B86AAD6C9E64CDBE291BF790 /* Pods-TekTalkDemo2_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -43,12 +43,12 @@
 		4477B5E84C28A843DC7B267B2E41730A /* Pods-TekTalkDemo2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekTalkDemo2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4BEBDEFB45B801ECCCA4AF445D6010D8 /* Pods-TekTalkDemo2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TekTalkDemo2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		722134D92569F5560497CC08B95345E2 /* Pods-TekTalkDemo2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TekTalkDemo2_Example.modulemap"; sourceTree = "<group>"; };
-		7310ECFD1D0C3A19000E3190 /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		787D7F208D533ADDECCFC325B61C69B0 /* Pods-TekTalkDemo2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekTalkDemo2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FE25257CB5277AF67DA9CA82753C2F7 /* Pods-TekTalkDemo2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TekTalkDemo2_Example-dummy.m"; sourceTree = "<group>"; };
 		852FD7384FDEE5C72459C4C83020D03C /* Pods-TekTalkDemo2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekTalkDemo2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F836CF85FEBD4F324F4FB1828FA9724 /* Pods-TekTalkDemo2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekTalkDemo2_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DE2274499D832A8912CD05FA6A9765 /* Code.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		A62BBB547A4A1114327422E8D15A7A58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C419D34DAA550848B5952AD17F13D133 /* Pods-TekTalkDemo2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TekTalkDemo2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C608BB8D9779AF3231708FA70EB85A33 /* Pods_TekTalkDemo2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekTalkDemo2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +120,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2E65A606461868F377865DE2EE7D7224 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94DE2274499D832A8912CD05FA6A9765 /* Code.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,17 +191,9 @@
 		BD23F9B76C39A75F69A4A4E4A27B67D7 /* TekTalkDemo2 */ = {
 			isa = PBXGroup;
 			children = (
-				E0F554901F89C94824E3605869FB20EF /* Classes */,
+				2E65A606461868F377865DE2EE7D7224 /* Classes */,
 			);
 			path = TekTalkDemo2;
-			sourceTree = "<group>";
-		};
-		E0F554901F89C94824E3605869FB20EF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7310ECFD1D0C3A19000E3190 /* Code.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		FA6778D6B54AA86D556BF70AECF0327A /* Development Pods */ = {
@@ -274,7 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62E4CF6A50B448277C5CBEA6130F6C27 /* Build configuration list for PBXNativeTarget "TekTalkDemo2" */;
 			buildPhases = (
-				8912E58A72A860A1EF2407405D9D3809 /* Sources */,
+				EBC94BC334A2F5F5AFA23EF76CE591AD /* Sources */,
 				C4BE8B82CD6498A557206319694DFECA /* Frameworks */,
 				31B7607C02EB10578680741027029D46 /* Headers */,
 			);
@@ -345,16 +345,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7310ECFE1D0C3A19000E3190 /* Code.swift in Sources */,
 				B9831A039BD4D42B714E53AD0EC41D05 /* Pods-TekTalkDemo2_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8912E58A72A860A1EF2407405D9D3809 /* Sources */ = {
+		EBC94BC334A2F5F5AFA23EF76CE591AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD72F926BC447AE2AF38D781A003F45 /* TekTalkDemo2-dummy.m in Sources */,
+				C2CD3B5EA23E2E9182D71689081E37D7 /* Code.swift in Sources */,
+				A3FF202AA97D92221369AC38AF76E7E2 /* TekTalkDemo2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +412,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF3C687E23C6CD058156CD5FF1FD5CF9 /* Pods-TekTalkDemo2_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -510,7 +509,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4477B5E84C28A843DC7B267B2E41730A /* Pods-TekTalkDemo2_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
