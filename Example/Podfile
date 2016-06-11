@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TekTalkDemo2_Example' do
+  pod 'TekTalkDemo2', :path => '../'
+
+  target 'TekTalkDemo2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
